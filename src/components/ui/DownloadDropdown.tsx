@@ -53,8 +53,8 @@ export default function DownloadDropdown() {
             className="block w-full px-4 py-3 text-left text-[#e5e7eb] hover:bg-[#1e2738] transition-colors border-b border-[#2d3748] text-sm"
             download
           >
-            <div className="font-medium">1-Page Resume</div>
-            <div className="text-xs text-[#9ca3af] mt-1">Compact, ATS-optimized</div>
+            <div className="font-medium">One-Page Resume</div>
+            <div className="text-xs text-[#9ca3af] mt-1">Concise Format</div>
           </a>
           <a
             href={getAssetPath(config.resumeUrls.detailed)}
@@ -64,7 +64,7 @@ export default function DownloadDropdown() {
             download
           >
             <div className="font-medium">Detailed Resume</div>
-            <div className="text-xs text-[#9ca3af] mt-1">Full experience</div>
+            <div className="text-xs text-[#9ca3af] mt-1">Extended Format</div>
           </a>
         </div>
       )}
